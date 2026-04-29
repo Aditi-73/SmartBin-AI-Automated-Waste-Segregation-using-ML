@@ -1,0 +1,20 @@
+2026-04-29 01:13:43,622 - root - INFO - Logging initialized. Log file: D:\Coding\Sem- 6\Aditi_MP\outputs\logs\training_20260429_011343.log
+2026-04-29 01:13:43,799 - root - INFO - Random seed set to 42 for reproducibility.
+2026-04-29 01:13:43,801 - root - INFO - ============================================================
+2026-04-29 01:13:43,801 - root - INFO - SMART WASTE SEGREGATION SYSTEM INITIALIZED
+2026-04-29 01:13:43,801 - root - INFO - ============================================================
+2026-04-29 01:13:43,805 - root - INFO - ============================================================
+2026-04-29 01:13:43,807 - root - INFO - STARTING TRAINING PIPELINE
+2026-04-29 01:13:43,807 - root - INFO - ============================================================
+2026-04-29 01:13:43,807 - root - WARNING - No CUDA GPU detected. Training will be slow on CPU.
+2026-04-29 01:13:43,868 - root - INFO - WasteDataset: 15515 samples from D:\Coding\Sem- 6\Aditi_MP\data\unified
+2026-04-29 01:13:43,907 - root - INFO - Random seed set to 42 for reproducibility.
+2026-04-29 01:13:43,930 - root - INFO - Data split — Train: 10859, Val: 2328, Test: 2328
+2026-04-29 01:13:43,998 - root - INFO - WasteDataset: 15515 samples from D:\Coding\Sem- 6\Aditi_MP\data\unified
+2026-04-29 01:13:44,048 - root - INFO - WasteDataset: 15515 samples from D:\Coding\Sem- 6\Aditi_MP\data\unified
+2026-04-29 01:13:44,089 - root - INFO - WasteDataset: 15515 samples from D:\Coding\Sem- 6\Aditi_MP\data\unified
+2026-04-29 01:13:44,090 - root - INFO - DataLoaders created — Train: 10859 (339 batches), Val: 2328 (73 batches), Test: 2328 (73 batches)
+2026-04-29 01:13:44,120 - root - INFO - Random seed set to 42 for reproducibility.
+2026-04-29 01:13:44,241 - root - INFO - Training Custom CNN — 14,419,206 params
+2026-04-29 01:22:08,471 - root - INFO - Epoch 1/50 — Train: 56.0% (loss=1.6974) | Val: 62.0% (loss=1.0909)
+2026-04-29 01:22:08,545 - root - INFO - Model saved: D:\Coding\Sem- 6\Aditi_MP\outputs\models\cnn_best.pth

@@ -1,0 +1,41 @@
+2026-04-29 00:51:41,164 - root - INFO - Logging initialized. Log file: D:\Coding\Sem- 6\Aditi_MP\outputs\logs\training_20260429_005141.log
+2026-04-29 00:51:41,171 - root - INFO - Random seed set to 42 for reproducibility.
+2026-04-29 00:51:41,171 - root - INFO - ============================================================
+2026-04-29 00:51:41,171 - root - INFO - SMART WASTE SEGREGATION SYSTEM INITIALIZED
+2026-04-29 00:51:41,171 - root - INFO - ============================================================
+2026-04-29 00:51:41,174 - root - INFO - Preparing datasets...
+2026-04-29 00:51:41,174 - root - INFO - Downloading TrashNet dataset...
+2026-04-29 00:51:44,305 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.kaggle.com:443
+2026-04-29 00:51:44,856 - urllib3.connectionpool - DEBUG - https://api.kaggle.com:443 "POST /v1/datasets.DatasetApiService/GetDataset HTTP/1.1" 403 None
+2026-04-29 00:51:44,856 - root - WARNING - Auto-download failed: 403 Client Error.
+
+You don't have permission to access resource at URL: https://api.kaggle.com/v1/datasets.DatasetApiService/GetDataset. Please make sure you are authenticated if you are trying to access a private resource or a resource requiring consent.
+2026-04-29 00:51:44,858 - root - INFO - Please download TrashNet manually:
+  1. Go to https://www.kaggle.com/datasets/asdasdasasdas/trashnet
+  2. Download and extract to: D:\Coding\Sem- 6\Aditi_MP\data\trashnet
+  3. Ensure structure: trashnet/<class_name>/<images>
+2026-04-29 00:51:44,859 - root - INFO - Downloading Garbage Classification dataset...
+2026-04-29 00:51:44,878 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.kaggle.com:443
+2026-04-29 00:51:46,203 - urllib3.connectionpool - DEBUG - https://api.kaggle.com:443 "POST /v1/datasets.DatasetApiService/GetDataset HTTP/1.1" 200 None
+2026-04-29 00:51:47,473 - urllib3.connectionpool - DEBUG - https://api.kaggle.com:443 "POST /v1/datasets.DatasetApiService/DownloadDataset HTTP/1.1" 302 0
+2026-04-29 00:51:47,500 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-04-29 00:51:47,908 - urllib3.connectionpool - DEBUG - https://storage.googleapis.com:443 "GET /kaggle-data-sets/1115942/1874598/bundle/archive.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20260428%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260428T192147Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=597268c1e357e36b5e05eb86d5dfc4c71bb907fa206d7bf46eac8c21c25bb1afba8996311cae94dce235f333e7a22e969dc0fd28365407590520883d90fc23bcfdfb8cd53d69292ff74a4138610aa7bea56c44c59354def875d5aa964c0f1643e9d058ecf6e588f6c0b0257149ee85e2622e3e876457ad8dd80ae95a4a5ee7fc8f26baf5d5520c871a2267c43865b2e8ffcf7521acfbfe6befe8d854d8a88e8d17297229e153320b88dcaa36aff7a786bb366edbdf91b4abfee3c7eb51a9cc696aba000703a75fe9fbe23594238b6c7e1c259ad155044ad4bf8f6686cf9565f53fc463a84b30e3628996f4e64fd87b594da7475965ef5c7c906de41742edef8a HTTP/1.1" 200 250641573
+2026-04-29 00:53:00,746 - root - INFO - Garbage Classification downloaded to: C:\Users\Lenovo\.cache\kagglehub\datasets\mostafaabla\garbage-classification\versions\1
+2026-04-29 00:57:27,268 - root - INFO - Garbage Classification organized: 15515 images in D:\Coding\Sem- 6\Aditi_MP\data\garbage_classification
+2026-04-29 00:57:27,270 - root - INFO - Merging datasets into unified directory...
+2026-04-29 01:01:22,443 - root - INFO - Dataset merge complete:
+2026-04-29 01:01:22,443 - root - INFO -   cardboard: 891 new images
+2026-04-29 01:01:22,444 - root - INFO -   glass: 2011 new images
+2026-04-29 01:01:22,445 - root - INFO -   metal: 1714 new images
+2026-04-29 01:01:22,445 - root - INFO -   paper: 1050 new images
+2026-04-29 01:01:22,446 - root - INFO -   plastic: 865 new images
+2026-04-29 01:01:22,447 - root - INFO -   trash: 8984 new images
+2026-04-29 01:01:22,447 - root - INFO - Class distribution:
+2026-04-29 01:01:22,450 - root - INFO -   cardboard: 891
+2026-04-29 01:01:22,454 - root - INFO -   glass: 2011
+2026-04-29 01:01:22,458 - root - INFO -   metal: 1714
+2026-04-29 01:01:22,461 - root - INFO -   paper: 1050
+2026-04-29 01:01:22,463 - root - INFO -   plastic: 865
+2026-04-29 01:01:22,484 - root - INFO -   trash: 8984
+2026-04-29 01:01:22,485 - root - INFO -   TOTAL: 15515
+2026-04-29 01:01:22,519 - root - INFO - Dataset ready. Total images: 15515

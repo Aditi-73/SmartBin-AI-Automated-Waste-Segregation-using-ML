@@ -1,0 +1,25 @@
+# Environments
+venv/
+env/
+.env
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Datasets
+data/
+
+# Model Weights and Features
+outputs/models/
+outputs/features/
+outputs/yolo/
+
+# OS specific
+.DS_Store
+Thumbs.db
